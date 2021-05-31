@@ -79,7 +79,7 @@ if(isset($_POST['Envoyer_key'])){$key_de_produit=$_POST['key_de_produit'];if(emp
 ?>
 <h2>Étape 2:</h2>
 <h2>En cours d'installation</h2>
-Entrez le code produit. Demandez au programmeur de vous l'envoyer pour installer et utiliser le site :<input type="text" name="key_de_produit" ><input type="submit" name="Envoyer_key">
+Entrez le code produit. Demandez au programmeur de vous l'envoyer pour installer et utiliser le site :<input type="password" name="key_de_produit" ><input type="submit" name="Envoyer_key">
 <?php 
     }break;
     case 2:{
